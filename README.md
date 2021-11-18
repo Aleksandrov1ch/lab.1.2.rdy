@@ -26,10 +26,7 @@ CLI tool accept 3 options (short alias and full name):
 CaesarCipher input.txt to output.txt:
 
 ```
-$ node cli -i "./input.txt" -o "./output.txt" -a uncollapse
-```
-```
-$ node cli -i "./input.txt" -o "./output.txt" -a sumMattrix
+$ node cli -i "./input.txt" -o "./output.txt" -a caesarCipher
 ```
 
 CaesarCipher stdin to stdout:
