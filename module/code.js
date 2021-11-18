@@ -1,11 +1,8 @@
- module.exports.caesarCipher = function arrayDiff(a, b) {
-    for (let i = 0; i < a.length; i++) {
-      if(b.indexOf(a[i]) !== -1) {
-         a.splice(i, 1);
-         i--
-      
-       }
-   }
-     return a
-  }
-  
+module.exports.caesarCipher = function caesarCipher(str) {
+    const [arr1,arr2] = str.toString().split(":");
+    a = JSON.parse(arr1);
+    b = JSON.parse(arr2);
+    let c = a.filter(value => !b.includes(value));
+    return c.toString();
+ }
+ 
