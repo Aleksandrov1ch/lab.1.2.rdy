@@ -36,5 +36,5 @@ $ node caesar -a delete
 ```
 ```
 For action CaesarCipher need enter text through ":" , for example:  
-1. ([1,2], [1]) // -> [2]
-2. ([1,2,2,2,3], [2]) // -> [1,3]
+1. [1,2]:[1] // -> [2]
+2. [1,2,2,2,3]:[2] // -> [1,3]
