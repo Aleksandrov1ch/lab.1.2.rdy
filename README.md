@@ -1,4 +1,4 @@
-# task1
+# task1.2
 ##  CaesarCipher CLI tool
 
 ## Run app
